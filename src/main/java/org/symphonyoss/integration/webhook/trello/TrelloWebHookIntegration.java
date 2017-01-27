@@ -19,8 +19,8 @@ package org.symphonyoss.integration.webhook.trello;
 import static org.symphonyoss.integration.webhook.trello.TrelloEntityConstants.ACTION;
 import static org.symphonyoss.integration.webhook.trello.TrelloEntityConstants.TYPE;
 
-import com.symphony.api.pod.model.ConfigurationInstance;
-import com.symphony.api.pod.model.V1Configuration;
+import org.symphonyoss.integration.service.model.ConfigurationInstance;
+import org.symphonyoss.integration.service.model.Configuration;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -72,7 +72,7 @@ public class TrelloWebHookIntegration extends WebHookIntegration {
   }
 
   @Override
-  public void onConfigChange(V1Configuration conf) {
+  public void onConfigChange(Configuration conf) {
     super.onConfigChange(conf);
 
     String trelloUser = conf.getType();

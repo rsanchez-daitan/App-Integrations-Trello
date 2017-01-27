@@ -23,7 +23,7 @@ import static org.mockito.Matchers.anyString;
 import static org.mockito.Mockito.when;
 
 import com.symphony.api.pod.client.ApiException;
-import com.symphony.api.pod.model.ConfigurationInstance;
+import org.symphonyoss.integration.service.model.ConfigurationInstance;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import org.junit.Before;

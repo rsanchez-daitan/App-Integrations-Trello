@@ -25,7 +25,7 @@ import static org.symphonyoss.integration.webhook.trello.TrelloEntityConstants.D
 import static org.symphonyoss.integration.webhook.trello.TrelloEntityConstants.LABEL;
 import static org.symphonyoss.integration.webhook.trello.TrelloEntityConstants.NAME;
 
-import com.symphony.api.pod.model.ConfigurationInstance;
+import org.symphonyoss.integration.service.model.ConfigurationInstance;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;

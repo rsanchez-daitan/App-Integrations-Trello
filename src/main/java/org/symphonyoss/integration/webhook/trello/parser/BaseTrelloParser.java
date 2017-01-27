@@ -35,7 +35,7 @@ import static org.symphonyoss.integration.webhook.trello.TrelloEntityConstants.T
 import static org.symphonyoss.integration.webhook.trello.TrelloEntityConstants.TYPE;
 import static org.symphonyoss.integration.webhook.trello.TrelloEntityConstants.USERNAME;
 
-import com.symphony.api.pod.model.ConfigurationInstance;
+import org.symphonyoss.integration.service.model.ConfigurationInstance;
 import com.symphony.logging.ISymphonyLogger;
 
 import com.fasterxml.jackson.databind.JsonNode;

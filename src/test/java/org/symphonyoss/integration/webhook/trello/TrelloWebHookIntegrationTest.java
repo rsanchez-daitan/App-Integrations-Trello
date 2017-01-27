@@ -19,7 +19,7 @@ package org.symphonyoss.integration.webhook.trello;
 import static java.util.Collections.EMPTY_MAP;
 import static org.junit.Assert.assertNull;
 
-import com.symphony.api.pod.model.ConfigurationInstance;
+import org.symphonyoss.integration.service.model.ConfigurationInstance;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import org.junit.Before;
